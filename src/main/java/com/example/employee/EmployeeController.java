@@ -83,7 +83,7 @@ public class EmployeeController {
 	public List<Employee> findEmpByName(@PathVariable String name) {
 		return empser.findEmpByName(name);
 	}
-	@GetMapping(value="/findByNameAge")
+	@GetMapping(value="/getNameAge")
 	public List<String> findByNameAge() {
 		return empser.findEmpByNameAge();
 	}
